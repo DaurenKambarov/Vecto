@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Header{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    position: static;
+    margin: 0;
+}
+.navbar-nav{
+    margin-left: 900px;
+}
+.Intro{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: url(https://pibig.info/uploads/posts/2022-11/1669698570_2-pibig-info-p-oboi-s-mashinoi-pinterest-3.jpg) center no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    display: flex;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.IntroInner{
+    align-self: center;
+    width: 500px;
+}
